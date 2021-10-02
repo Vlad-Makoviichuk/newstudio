@@ -1,0 +1,36 @@
+.social-list {
+  display: flex;
+}
+
+.social-list__item {
+  &:not(:last-child) {
+    margin-right: 10px;
+  }
+}
+
+.social-list__link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+
+  color: #afb1b8;
+  transition: background-color 250ms $main-cubic, color 250ms $main-cubic;
+
+  &:hover,
+  &:focus {
+    background-color: $accent-color;
+    color: $main-bgc-color;
+  }
+
+  &--grey-bg {
+    background: rgba(255, 255, 255, 0.1);
+    color: #ffffff;
+  }
+}
+
+.social-list__icon {
+  fill: currentColor;
+}

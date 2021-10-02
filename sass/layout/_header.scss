@@ -1,0 +1,33 @@
+.header {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #ececec;
+}
+
+.header__container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header__logo {
+  margin-right: 88px;
+}
+
+@media screen and (min-width: $tablet-width-container) {
+  .header {
+    padding-top: 21px;
+    padding-bottom: 21px;
+  }
+}
+
+@media screen and (min-width: $desktop-width-container) {
+  .header {
+    padding-top: 24px;
+    padding-bottom: 25px;
+  }
+
+  .header__logo {
+    margin-right: 93px;
+  }
+}

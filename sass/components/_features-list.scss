@@ -1,0 +1,35 @@
+.features-list__icon-thumb {
+  @include alignmentFlex(flex, center, center);
+  width: 100%;
+  height: 120px;
+  background-color: $bgc-team-color;
+  border-radius: 4px;
+  margin-bottom: 30px;
+}
+
+.features-list__title {
+  margin-bottom: 10px;
+
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.features-list__description {
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.71;
+
+  letter-spacing: 0.03em;
+
+  color: $secondary-text-color;
+}
+
+@media screen and (min-width: $tablet-width-container) {
+  .features-list__title {
+    text-align: left;
+  }
+}

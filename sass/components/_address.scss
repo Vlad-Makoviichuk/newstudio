@@ -1,0 +1,29 @@
+.address {
+  font-style: normal;
+}
+
+.address__text {
+  margin-bottom: 9px;
+
+  font-size: 14px;
+  line-height: 1.71;
+
+  letter-spacing: 0.03em;
+
+  color: $main-bgc-color;
+}
+
+.address__item {
+  &:not(:last-child) {
+    margin-bottom: 9px;
+  }
+}
+
+.address__link {
+  font-size: 14px;
+  line-height: 1.71;
+
+  letter-spacing: 0.03em;
+
+  color: $footer-contacts-color;
+}

@@ -1,0 +1,29 @@
+.page-section {
+  padding-top: $mobile-section-padding;
+  padding-bottom: $mobile-section-padding;
+
+  &--grey {
+    background-color: $bgc-team-color;
+  }
+}
+
+.page-section__title {
+  margin-bottom: 50px;
+
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+
+@media screen and (min-width: $desktop-width-container) {
+  .page-section {
+    padding-top: $desktop-section-padding;
+    padding-bottom: $desktop-section-padding;
+
+    &--cropped-top {
+      padding-top: 0px;
+    }
+  }
+}
